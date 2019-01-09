@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "r-like": "/components/like/index",
+    "r-movie": "/components/classic/movie/index",
+    "r-music": "/components/classic/music/index",
+    "r-episode": "/components/episode/index",
+    "r-navi": "/components/navi/index"
+  }
+}

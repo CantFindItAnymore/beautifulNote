@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.coverImg {
+  width: 422rpx;
+  height: 422rpx;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 70rpx;
+}
+
+.playerImg {
+  width: 120rpx;
+  height: 120rpx;
+  position: relative;
+  bottom: 270rpx;
+  margin: 0 auto;
+}
+
+.tagImg {
+  width: 46rpx;
+  height: 142rpx;
+  position: relative;
+  bottom: 175rpx;
+  margin-left: 40rpx;
+}
+
+.descText {
+  font-size: 32rpx;
+  max-width: 70%;
+  margin: 0 auto;
+  margin-top: -10rpx;
+}

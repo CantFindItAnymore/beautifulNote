@@ -1,0 +1,28 @@
+<view class="container">
+  <r-episode index="{{content.index}}" />
+  <r-like
+    bind:like="onLike"
+    like="{{isLike}}"
+    likeCount="{{likeCount}}"
+  />
+</view>
+<r-movie
+  wx:if="{{content.type === 100}}"
+  img="{{content.image}}"
+  desc="{{content.content}}"
+/>
+<r-music
+  wx:if="{{content.type === 200}}"
+  coverImg="{{content.image}}"
+  desc="{{content.content}}"
+  src="{{content.url}}"
+  title="{{content.title}}"
+/>
+<r-navi
+  class="navi"
+  bind:onLeft="onLeft"
+  bind:onRight="onRight"
+  title="{{content.title}}"
+  isFirst="{{isFirst}}"
+  isLatest="{{isLatest}}"
+/>

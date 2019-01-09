@@ -1,0 +1,6 @@
+<view class="container">
+  <image class="coverImg" src="{{coverImg}}" />
+  <image class="playerImg" src="{{status?pauseImg:playerImg}}" bind:tap='changeStatus'/>
+  <image class="tagImg" src="{{tagImg}}" />
+  <text class="descText">{{desc}}</text>
+</view>
