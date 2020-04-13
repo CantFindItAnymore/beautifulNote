@@ -10,6 +10,7 @@
     "navigationBarTitleText": "最美笔记",
     "navigationBarTextStyle": "black"
   },
+  "requiredBackgroundModes": ["audio"],
   "tabBar": {
     "color": "#c7c7c7",
     "backgroundColor": "#fff",
@@ -34,5 +35,6 @@
         "selectedIconPath": "images/tab/my@highlight.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
